@@ -15,15 +15,43 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
-<<<<<<< HEAD
-.author-photo{
+
+h1, h2, p, h3, h4 {
+  text-align: center;
+  margin: 25px;
+}
+
+.image img {
+  width: 100%;
+  padding: 25px;
+}
+
+.masonry{
   margin: 1.5em auto;
   column-count: 1;
   column-gap: 1em;
-=======
+}
+.item{
+  background-color: #B2D6FF;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+@media only screen and (min-width: 1000px) {
 
-h1, h2, p, h3, h4{
-  text-align: center;
-  margin: 50px;
->>>>>>> 373aab0d506e0d0b702e00adfffa03c21542c00d
+  .image {
+    width: 400px;
+    float: left;
+    margin: 25px;
+  }
+  p {
+    text-align: justify;
+    margin: 25px;
+  }
+  .item{
+    
+  }
+  
 }
