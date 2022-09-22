@@ -15,8 +15,15 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: #fff;
 }
+<<<<<<< HEAD
 .author-photo{
   margin: 1.5em auto;
   column-count: 1;
   column-gap: 1em;
+=======
+
+h1, h2, p, h3, h4{
+  text-align: center;
+  margin: 50px;
+>>>>>>> 373aab0d506e0d0b702e00adfffa03c21542c00d
 }
