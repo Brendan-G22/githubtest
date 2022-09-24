@@ -26,6 +26,7 @@ h1, h2, p, h3, h4, h5, h6, h7 {
 }
 
 .masonry{
+  display: block;
   margin: 1.5em auto;
   column-count: 1;
   column-gap: 1em;
@@ -53,12 +54,17 @@ display: block;
   column-gap: 5em;
 }
 .fic{
-  max-width: 300px;
-  float: auto;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  margin: auto;
+  width: 25%;
+  height: 50%;
 }
 @media only screen and (min-width: 1000px) {
+  .fic{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .image {
     width: 400px;
@@ -67,7 +73,6 @@ display: block;
   }
   .image1{
     width: 400px;
-    float: none;
     margin: 25px;
   }
   p {
