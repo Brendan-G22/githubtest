@@ -45,6 +45,19 @@ display: block;
   width: 25%;
   height: 50%;
 }
+.books{
+  margin-left: auto;
+  margin-right: auto;
+  column-count: 4;
+  margin: 1.5em;
+  column-gap: 5em;
+}
+.fic{
+  max-width: 300px;
+  float: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media only screen and (min-width: 1000px) {
 
   .image {
@@ -52,12 +65,14 @@ display: block;
     float: left;
     margin: 25px;
   }
+  .image1{
+    width: 400px;
+    float: none;
+    margin: 25px;
+  }
   p {
     text-align: justify;
     margin: 25px;
-  }
-  .item{
-    
   }
   
 }
