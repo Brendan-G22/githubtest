@@ -39,9 +39,15 @@ h1, h2, p, h3, h4 {
   margin: 0 0 1em;
   width: 100%;
 }
+
+.books{
+  column-count: 4;
+  margin: 1.5em;
+  column-gap: 1em;
+}
 @media only screen and (min-width: 1000px) {
 
-  .image {
+  .image{
     width: 400px;
     float: left;
     margin: 25px;
@@ -49,9 +55,6 @@ h1, h2, p, h3, h4 {
   p {
     text-align: justify;
     margin: 25px;
-  }
-  .item{
-    
   }
   
 }
